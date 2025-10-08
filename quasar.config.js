@@ -44,6 +44,11 @@ export default defineConfig((/* ctx */) => {
       // rebuildCache: true, // rebuilds Vite/linter/etc cache on startup
 
       publicPath: '/373-somchet-jadang/',
+
+      htmlVariables: {
+        productName: '373 Somchet Jadang',
+        productDescription: 'Quasar test project deployed to GitHub Pages'
+      }
       // analyze: true,
       // env: {},
       // rawDefine: {}
