@@ -44,10 +44,11 @@ export default defineConfig((/* ctx */) => {
       // rebuildCache: true, // rebuilds Vite/linter/etc cache on startup
 
       publicPath: '/373-somchet-jadang/',
-      htmlVariables: {
-        productName: '373 Somchet Jadang',
-        productDescription: 'Quasar SPA deployed on GitHub Pages'
-      }
+      vueRouterMode: 'hash',
+      esbuildTarget: {
+        browser: [ 'es2022', 'firefox115', 'chrome115', 'safari14' ],
+        node: 'node20'
+      },
       // analyze: true,
       // env: {},
       // rawDefine: {}
