@@ -48,7 +48,7 @@ export default defineConfig((/* ctx */) => {
 
       // rebuildCache: true, // rebuilds Vite/linter/etc cache on startup
 
-      // publicPath: '/',
+      publicPath: '/373-somchet-jadang/',
       // analyze: true,
       // env: {},
       // rawDefine: {}
